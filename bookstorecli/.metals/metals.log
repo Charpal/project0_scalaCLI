@@ -5337,3 +5337,199 @@ something's wrong: no file:///C:/Users/Charles%20Dang/Documents/Revature/Project
 [0m2021.10.18 17:19:45 ERROR INFO: Closed connection [connectionId{localValue:2, serverValue:72}] to localhost:27017 because the pool has been closed.[0m
 [0m2021.10.18 17:19:45 INFO  Canceling debug proxy for [example.MainUI][0m
 [0m2021.10.18 17:19:45 INFO  Closing debug server tcp://0.0.0.0:62776[0m
+[0m2021.10.19 11:25:30 INFO  shutting down Metals[0m
+[0m2021.10.19 12:17:37 INFO  Started: Metals version 0.10.7 in workspace 'C:\Users\Charles Dang\Documents\Revature\Projects\project0_scalaCLI\bookstorecli' for client Visual Studio Code 1.61.1.[0m
+[0m2021.10.19 12:17:41 INFO  time: initialize in 3.91s[0m
+[0m2021.10.19 12:17:48 INFO  Attempting to connect to the build server...[0m
+[0m2021.10.19 12:17:49 WARN  no build target for: C:\Users\Charles Dang\Documents\Revature\Projects\project0_scalaCLI\bookstorecli\src\main\scala\example\MainUI.scala[0m
+[0m2021.10.19 12:17:50 INFO  skipping build import with status 'Installed'[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 12501'...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:12501...
+The server is listening for incoming connections at tcp://127.0.0.1:12501...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.10.19 12:18:27 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Charles Dang\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.10.19 12:18:36 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 36585'...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:36585...
+The server is listening for incoming connections at tcp://127.0.0.1:36585...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.10.19 12:18:43 INFO  no build target: using presentation compiler with only scala-library: 2.12.15[0m
+[0m2021.10.19 12:18:45 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Charles Dang\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.10.19 12:18:47 INFO  time: Connected to build server in 58s[0m
+[0m2021.10.19 12:18:47 INFO  Connected to Build server: Bloop v1.4.9[0m
+[0m2021.10.19 12:18:55 INFO  time: Imported build in 8.06s[0m
+[0m2021.10.19 12:19:13 INFO  no build target: using presentation compiler with only scala-library: 2.12.15[0m
+[0m2021.10.19 12:19:17 INFO  time: code lens generation in 1m24s[0m
+[0m2021.10.19 12:19:23 INFO  time: indexed workspace in 27s[0m
+[0m2021.10.19 12:19:52 INFO  no build target: using presentation compiler with only scala-library: 2.13.6[0m
+[0m2021.10.19 12:24:56 INFO  time: code lens generation in 5.91s[0m
+[0m2021.10.19 12:25:23 INFO  time: code lens generation in 6.1s[0m
+[0m2021.10.19 12:27:25 INFO  compiling root (1 scala source)[0m
+[0m2021.10.19 12:29:09 WARN  1 deprecation (since 2.13.0)[0m
+[0m2021.10.19 12:29:09 WARN  2 deprecations (since 2.13.3)[0m
+[0m2021.10.19 12:29:09 WARN  3 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.10.19 12:29:13 INFO  time: compiled root in 1m47s[0m
+Oct 19, 2021 12:41:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 259
+something's wrong: no file:///C:/Users/Charles%20Dang/Documents/Revature/Projects/project0_scalaCLI/bookstorecli/src/main/scala/example/MainUI.scala in scala.collection.Seq[<error>]RangePosition(file:///C:/Users/Charles%20Dang/Documents/Revature/Projects/project0_scalaCLI/bookstorecli/src/main/scala/example/MainUI.scala, 832, 832, 845)
+something's wrong: no file:///C:/Users/Charles%20Dang/Documents/Revature/Projects/project0_scalaCLI/bookstorecli/src/main/scala/example/MainUI.scala in scala.collection.Seq[play.api.libs.json.JsValue]RangePosition(file:///C:/Users/Charles%20Dang/Documents/Revature/Projects/project0_scalaCLI/bookstorecli/src/main/scala/example/MainUI.scala, 832, 832, 844)
+something's wrong: no file:///C:/Users/Charles%20Dang/Documents/Revature/Projects/project0_scalaCLI/bookstorecli/src/main/scala/example/MainUI.scala in scala.collection.Seq[play.api.libs.json.JsValue]RangePosition(file:///C:/Users/Charles%20Dang/Documents/Revature/Projects/project0_scalaCLI/bookstorecli/src/main/scala/example/MainUI.scala, 832, 832, 844)
+something's wrong: no file:///C:/Users/Charles%20Dang/Documents/Revature/Projects/project0_scalaCLI/bookstorecli/src/main/scala/example/MainUI.scala in org.mongodb.scala.MongoCollection[org.mongodb.scala.Document]RangePosition(file:///C:/Users/Charles%20Dang/Documents/Revature/Projects/project0_scalaCLI/bookstorecli/src/main/scala/example/MainUI.scala, 2189, 2189, 2214)
+[0m2021.10.19 12:42:33 INFO  compiling root (1 scala source)[0m
+[0m2021.10.19 12:42:35 WARN  1 deprecation (since 2.13.0)[0m
+[0m2021.10.19 12:42:35 WARN  2 deprecations (since 2.13.3)[0m
+[0m2021.10.19 12:42:35 WARN  3 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.10.19 12:42:35 INFO  time: compiled root in 1.84s[0m
+[0m2021.10.19 12:43:25 INFO  compiling root (1 scala source)[0m
+[0m2021.10.19 12:43:27 WARN  1 deprecation (since 2.13.0)[0m
+[0m2021.10.19 12:43:27 WARN  2 deprecations (since 2.13.3)[0m
+[0m2021.10.19 12:43:27 WARN  3 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.10.19 12:43:27 INFO  time: compiled root in 1.75s[0m
+Oct 19, 2021 12:44:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 606
+[0m2021.10.19 12:50:07 INFO  compiling root (1 scala source)[0m
+[0m2021.10.19 12:50:09 WARN  1 deprecation (since 2.13.0)[0m
+[0m2021.10.19 12:50:09 WARN  2 deprecations (since 2.13.3)[0m
+[0m2021.10.19 12:50:09 WARN  3 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.10.19 12:50:09 INFO  time: compiled root in 1.4s[0m
+[0m2021.10.19 12:50:44 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Charles Dang\AppData\Local\scalameta\metals\cache\dap-server.trace.json[0m
+[0m2021.10.19 12:50:44 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Charles Dang\AppData\Local\scalameta\metals\cache\dap-client.trace.json[0m
+[0m2021.10.19 12:50:44 INFO  Starting debug proxy for [example.MainUI][0m
+[0m2021.10.19 12:50:44 INFO  Trying to attach to remote debuggee VM 127.0.0.1:59734 .[0m
+[0m2021.10.19 12:50:44 INFO  Attaching to debuggee VM succeeded.[0m
+[0m2021.10.19 12:50:46 ERROR Oct 19, 2021 12:50:46 PM com.mongodb.diagnostics.logging.JULLogger log[0m
+[0m2021.10.19 12:50:46 ERROR INFO: Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}[0m
+[0m2021.10.19 12:50:46 ERROR Oct 19, 2021 12:50:46 PM com.mongodb.diagnostics.logging.JULLogger log[0m
+[0m2021.10.19 12:50:46 ERROR INFO: Opened connection [connectionId{localValue:1, serverValue:83}] to localhost:27017[0m
+[0m2021.10.19 12:50:46 ERROR Oct 19, 2021 12:50:46 PM com.mongodb.diagnostics.logging.JULLogger log[0m
+[0m2021.10.19 12:50:46 ERROR INFO: Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 4, 9]}, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=13601800}[0m
+[0m2021.10.19 12:50:46 ERROR Oct 19, 2021 12:50:46 PM com.mongodb.diagnostics.logging.JULLogger log[0m
+[0m2021.10.19 12:50:46 ERROR INFO: Opened connection [connectionId{localValue:2, serverValue:84}] to localhost:27017[0m
+[0m2021.10.19 12:50:53 ERROR Oct 19, 2021 12:50:53 PM com.mongodb.diagnostics.logging.JULLogger log[0m
+[0m2021.10.19 12:50:53 ERROR INFO: Closed connection [connectionId{localValue:2, serverValue:84}] to localhost:27017 because the pool has been closed.[0m
+[0m2021.10.19 12:50:53 INFO  Canceling debug proxy for [example.MainUI][0m
+[0m2021.10.19 12:50:53 INFO  Closing debug server tcp://0.0.0.0:59731[0m
+[0m2021.10.19 12:51:18 INFO  compiling root (1 scala source)[0m
+[0m2021.10.19 12:51:19 WARN  1 deprecation (since 2.13.0)[0m
+[0m2021.10.19 12:51:19 WARN  2 deprecations (since 2.13.3)[0m
+[0m2021.10.19 12:51:19 WARN  3 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.10.19 12:51:19 INFO  time: compiled root in 1.26s[0m
+[0m2021.10.19 12:52:06 INFO  compiling root (1 scala source)[0m
+[0m2021.10.19 12:52:08 WARN  1 deprecation (since 2.13.0)[0m
+[0m2021.10.19 12:52:08 WARN  2 deprecations (since 2.13.3)[0m
+[0m2021.10.19 12:52:08 WARN  3 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.10.19 12:52:08 INFO  time: compiled root in 1.11s[0m
+[0m2021.10.19 12:52:30 INFO  compiling root (1 scala source)[0m
+[0m2021.10.19 12:52:31 WARN  1 deprecation (since 2.13.0)[0m
+[0m2021.10.19 12:52:31 WARN  2 deprecations (since 2.13.3)[0m
+[0m2021.10.19 12:52:31 WARN  3 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.10.19 12:52:31 INFO  time: compiled root in 1.1s[0m
+[0m2021.10.19 12:52:50 INFO  Deduplicating compilation of root from bsp client 'Metals 0.10.7' (since 34m 16.812s)[0m
+[0m2021.10.19 12:52:54 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Charles Dang\AppData\Local\scalameta\metals\cache\dap-server.trace.json[0m
+[0m2021.10.19 12:52:54 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Charles Dang\AppData\Local\scalameta\metals\cache\dap-client.trace.json[0m
+[0m2021.10.19 12:52:55 INFO  Starting debug proxy for [example.MainUI][0m
+[0m2021.10.19 12:52:55 INFO  Trying to attach to remote debuggee VM 127.0.0.1:64768 .[0m
+[0m2021.10.19 12:52:55 INFO  Attaching to debuggee VM succeeded.[0m
+[0m2021.10.19 12:52:56 ERROR Oct 19, 2021 12:52:56 PM com.mongodb.diagnostics.logging.JULLogger log[0m
+[0m2021.10.19 12:52:56 ERROR INFO: Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}[0m
+[0m2021.10.19 12:52:56 ERROR Oct 19, 2021 12:52:56 PM com.mongodb.diagnostics.logging.JULLogger log[0m
+[0m2021.10.19 12:52:56 ERROR INFO: Opened connection [connectionId{localValue:1, serverValue:85}] to localhost:27017[0m
+[0m2021.10.19 12:52:56 ERROR Oct 19, 2021 12:52:56 PM com.mongodb.diagnostics.logging.JULLogger log[0m
+[0m2021.10.19 12:52:56 ERROR INFO: Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 4, 9]}, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=5528100}[0m
+[0m2021.10.19 12:52:56 ERROR Oct 19, 2021 12:52:56 PM com.mongodb.diagnostics.logging.JULLogger log[0m
+[0m2021.10.19 12:52:56 ERROR INFO: Opened connection [connectionId{localValue:2, serverValue:86}] to localhost:27017[0m
+[0m2021.10.19 12:53:03 ERROR Oct 19, 2021 12:53:03 PM com.mongodb.diagnostics.logging.JULLogger log[0m
+[0m2021.10.19 12:53:03 ERROR INFO: Closed connection [connectionId{localValue:2, serverValue:86}] to localhost:27017 because the pool has been closed.[0m
+[0m2021.10.19 12:53:03 INFO  Canceling debug proxy for [example.MainUI][0m
+[0m2021.10.19 12:53:03 INFO  Closing debug server tcp://0.0.0.0:64765[0m
+something's wrong: no file:///C:/Users/Charles%20Dang/Documents/Revature/Projects/project0_scalaCLI/bookstorecli/src/main/scala/example/MainUI.scala in scala.collection.Seq[play.api.libs.json.JsValue]RangePosition(file:///C:/Users/Charles%20Dang/Documents/Revature/Projects/project0_scalaCLI/bookstorecli/src/main/scala/example/MainUI.scala, 453, 453, 465)
+something's wrong: no file:///C:/Users/Charles%20Dang/Documents/Revature/Projects/project0_scalaCLI/bookstorecli/src/main/scala/example/MainUI.scala in scala.collection.Seq[play.api.libs.json.JsValue]RangePosition(file:///C:/Users/Charles%20Dang/Documents/Revature/Projects/project0_scalaCLI/bookstorecli/src/main/scala/example/MainUI.scala, 765, 765, 777)
+Oct 19, 2021 1:00:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1531
+Oct 19, 2021 1:00:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1559
+[0m2021.10.19 13:01:11 INFO  compiling root (1 scala source)[0m
+[0m2021.10.19 13:01:12 WARN  1 deprecation (since 2.13.0)[0m
+[0m2021.10.19 13:01:12 WARN  2 deprecations (since 2.13.3)[0m
+[0m2021.10.19 13:01:12 WARN  3 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.10.19 13:01:12 INFO  time: compiled root in 1.25s[0m
+[0m2021.10.19 13:01:54 INFO  Deduplicating compilation of root from bsp client 'Metals 0.10.7' (since 43m 21.245s)[0m
+[0m2021.10.19 13:01:59 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Charles Dang\AppData\Local\scalameta\metals\cache\dap-server.trace.json[0m
+[0m2021.10.19 13:01:59 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Charles Dang\AppData\Local\scalameta\metals\cache\dap-client.trace.json[0m
+[0m2021.10.19 13:01:59 INFO  Starting debug proxy for [example.MainUI][0m
+[0m2021.10.19 13:01:59 INFO  Trying to attach to remote debuggee VM 127.0.0.1:57757 .[0m
+[0m2021.10.19 13:01:59 INFO  Attaching to debuggee VM succeeded.[0m
+[0m2021.10.19 13:02:00 ERROR Oct 19, 2021 1:02:00 PM com.mongodb.diagnostics.logging.JULLogger log[0m
+[0m2021.10.19 13:02:00 ERROR INFO: Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}[0m
+[0m2021.10.19 13:02:00 ERROR Oct 19, 2021 1:02:01 PM com.mongodb.diagnostics.logging.JULLogger log[0m
+[0m2021.10.19 13:02:00 ERROR INFO: Opened connection [connectionId{localValue:1, serverValue:87}] to localhost:27017[0m
+[0m2021.10.19 13:02:00 ERROR Oct 19, 2021 1:02:01 PM com.mongodb.diagnostics.logging.JULLogger log[0m
+[0m2021.10.19 13:02:00 ERROR INFO: Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 4, 9]}, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=5517000}[0m
+[0m2021.10.19 13:02:00 ERROR Oct 19, 2021 1:02:01 PM com.mongodb.diagnostics.logging.JULLogger log[0m
+[0m2021.10.19 13:02:00 ERROR INFO: Opened connection [connectionId{localValue:2, serverValue:88}] to localhost:27017[0m
+[0m2021.10.19 13:02:07 ERROR Oct 19, 2021 1:02:07 PM com.mongodb.diagnostics.logging.JULLogger log[0m
+[0m2021.10.19 13:02:07 ERROR INFO: Closed connection [connectionId{localValue:2, serverValue:88}] to localhost:27017 because the pool has been closed.[0m
+[0m2021.10.19 13:02:07 INFO  Canceling debug proxy for [example.MainUI][0m
+[0m2021.10.19 13:02:07 INFO  Closing debug server tcp://0.0.0.0:57754[0m
+[0m2021.10.19 13:02:38 INFO  shutting down Metals[0m
+[0m2021.10.19 13:02:38 INFO  Shut down connection with build server.[0m
+[0m2021.10.19 13:02:38 INFO  Shut down connection with build server.[0m
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+[0m2021.10.19 13:07:06 INFO  Started: Metals version 0.10.7 in workspace 'C:\Users\Charles Dang\Documents\Revature\Projects\project0_scalaCLI\bookstorecli' for client Visual Studio Code 1.61.2.[0m
+[0m2021.10.19 13:07:09 INFO  time: initialize in 2.65s[0m
+[0m2021.10.19 13:07:12 INFO  Attempting to connect to the build server...[0m
+[0m2021.10.19 13:07:12 WARN  no build target for: C:\Users\Charles Dang\Documents\Revature\Projects\project0_scalaCLI\bookstorecli\src\main\scala\example\MainUI.scala[0m
+[0m2021.10.19 13:07:12 INFO  skipping build import with status 'Installed'[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 45342'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:45342...
+The server is listening for incoming connections at tcp://127.0.0.1:45342...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.10.19 13:07:16 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Charles Dang\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.10.19 13:07:16 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 35846'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:35846...
+The server is listening for incoming connections at tcp://127.0.0.1:35846...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.10.19 13:07:18 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Charles Dang\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.10.19 13:07:18 INFO  time: Connected to build server in 6.09s[0m
+[0m2021.10.19 13:07:18 INFO  Connected to Build server: Bloop v1.4.9[0m
+[0m2021.10.19 13:07:25 INFO  no build target: using presentation compiler with only scala-library: 2.12.15[0m
+[0m2021.10.19 13:07:25 INFO  time: Imported build in 0.12s[0m
+[0m2021.10.19 13:07:26 INFO  no build target: using presentation compiler with only scala-library: 2.12.15[0m
+[0m2021.10.19 13:07:30 INFO  time: code lens generation in 16s[0m
