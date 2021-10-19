@@ -1,0 +1,13 @@
+//Browse
+
+db.orders.find()
+db.booklist.find()
+
+//Delete
+db.booklist.deleteMany({})
+db.orders.deleteMany({})
+
+//Search
+db.booklist.find({"title": "Phantom of Place"})
+db.booklist.find({"author": "Gordon Butler"})
+db.booklist.find({"genre": "Fiction"})

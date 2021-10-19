@@ -1,0 +1,405 @@
+{
+    "version": "1.4.0",
+    "project": {
+        "name": "root",
+        "directory": "C:\\Users\\Charles Dang\\Documents\\Revature\\Projects\\project0_scalaCLI\\bookstorecli",
+        "workspaceDir": "C:\\Users\\Charles Dang\\Documents\\Revature\\Projects\\project0_scalaCLI\\bookstorecli",
+        "sources": [
+            "C:\\Users\\Charles Dang\\Documents\\Revature\\Projects\\project0_scalaCLI\\bookstorecli\\src\\main\\scala",
+            "C:\\Users\\Charles Dang\\Documents\\Revature\\Projects\\project0_scalaCLI\\bookstorecli\\src\\main\\scala-2.13",
+            "C:\\Users\\Charles Dang\\Documents\\Revature\\Projects\\project0_scalaCLI\\bookstorecli\\src\\main\\scala-2",
+            "C:\\Users\\Charles Dang\\Documents\\Revature\\Projects\\project0_scalaCLI\\bookstorecli\\src\\main\\java",
+            "C:\\Users\\Charles Dang\\Documents\\Revature\\Projects\\project0_scalaCLI\\bookstorecli\\target\\scala-2.13\\src_managed\\main"
+        ],
+        "dependencies": [
+            
+        ],
+        "classpath": [
+            "C:\\Users\\Charles Dang\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.13.6\\scala-library-2.13.6.jar",
+            "C:\\Users\\Charles Dang\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\mongodb\\scala\\mongo-scala-driver_2.13\\2.8.0\\mongo-scala-driver_2.13-2.8.0.jar",
+            "C:\\Users\\Charles Dang\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\typesafe\\play\\play-json_2.13\\2.8.0\\play-json_2.13-2.8.0.jar",
+            "C:\\Users\\Charles Dang\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\mongodb\\scala\\mongo-scala-bson_2.13\\2.8.0\\mongo-scala-bson_2.13-2.8.0.jar",
+            "C:\\Users\\Charles Dang\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\mongodb\\mongodb-driver-async\\3.12.0\\mongodb-driver-async-3.12.0.jar",
+            "C:\\Users\\Charles Dang\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-reflect\\2.13.6\\scala-reflect-2.13.6.jar",
+            "C:\\Users\\Charles Dang\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\typesafe\\play\\play-functional_2.13\\2.8.0\\play-functional_2.13-2.8.0.jar",
+            "C:\\Users\\Charles Dang\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\joda-time\\joda-time\\2.10.5\\joda-time-2.10.5.jar",
+            "C:\\Users\\Charles Dang\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\fasterxml\\jackson\\core\\jackson-core\\2.10.1\\jackson-core-2.10.1.jar",
+            "C:\\Users\\Charles Dang\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\fasterxml\\jackson\\core\\jackson-annotations\\2.10.1\\jackson-annotations-2.10.1.jar",
+            "C:\\Users\\Charles Dang\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\fasterxml\\jackson\\datatype\\jackson-datatype-jdk8\\2.10.1\\jackson-datatype-jdk8-2.10.1.jar",
+            "C:\\Users\\Charles Dang\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\fasterxml\\jackson\\datatype\\jackson-datatype-jsr310\\2.10.1\\jackson-datatype-jsr310-2.10.1.jar",
+            "C:\\Users\\Charles Dang\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\fasterxml\\jackson\\core\\jackson-databind\\2.10.1\\jackson-databind-2.10.1.jar",
+            "C:\\Users\\Charles Dang\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\mongodb\\bson\\3.12.0\\bson-3.12.0.jar",
+            "C:\\Users\\Charles Dang\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\mongodb\\mongodb-driver-core\\3.12.0\\mongodb-driver-core-3.12.0.jar"
+        ],
+        "out": "C:\\Users\\Charles Dang\\Documents\\Revature\\Projects\\project0_scalaCLI\\bookstorecli\\.bloop\\root",
+        "classesDir": "C:\\Users\\Charles Dang\\Documents\\Revature\\Projects\\project0_scalaCLI\\bookstorecli\\.bloop\\root\\scala-2.13\\classes",
+        "resources": [
+            "C:\\Users\\Charles Dang\\Documents\\Revature\\Projects\\project0_scalaCLI\\bookstorecli\\src\\main\\resources",
+            "C:\\Users\\Charles Dang\\Documents\\Revature\\Projects\\project0_scalaCLI\\bookstorecli\\target\\scala-2.13\\resource_managed\\main"
+        ],
+        "scala": {
+            "organization": "org.scala-lang",
+            "name": "scala-compiler",
+            "version": "2.13.6",
+            "options": [
+                
+            ],
+            "jars": [
+                "C:\\Users\\Charles Dang\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.13.6\\scala-library-2.13.6.jar",
+                "C:\\Users\\Charles Dang\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-compiler\\2.13.6\\scala-compiler-2.13.6.jar",
+                "C:\\Users\\Charles Dang\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-reflect\\2.13.6\\scala-reflect-2.13.6.jar",
+                "C:\\Users\\Charles Dang\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\jline\\jline\\3.19.0\\jline-3.19.0.jar",
+                "C:\\Users\\Charles Dang\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\net\\java\\dev\\jna\\jna\\5.3.1\\jna-5.3.1.jar"
+            ],
+            "analysis": "C:\\Users\\Charles Dang\\Documents\\Revature\\Projects\\project0_scalaCLI\\bookstorecli\\target\\streams\\compile\\bloopAnalysisOut\\_global\\streams\\inc_compile_2.13.zip",
+            "setup": {
+                "order": "mixed",
+                "addLibraryToBootClasspath": true,
+                "addCompilerToClasspath": false,
+                "addExtraJarsToClasspath": false,
+                "manageBootClasspath": true,
+                "filterLibraryFromClasspath": true
+            }
+        },
+        "java": {
+            "options": [
+                
+            ]
+        },
+        "test": {
+            "frameworks": [
+                {
+                    "names": [
+                        "org.scalacheck.ScalaCheckFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs2.runner.Specs2Framework",
+                        "org.specs2.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.scalatest.tools.Framework",
+                        "org.scalatest.tools.ScalaTestFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "com.novocode.junit.JUnitFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "munit.Framework"
+                    ]
+                }
+            ],
+            "options": {
+                "excludes": [
+                    
+                ],
+                "arguments": [
+                    
+                ]
+            }
+        },
+        "platform": {
+            "name": "jvm",
+            "config": {
+                "home": "C:\\Program Files\\Eclipse Foundation\\jdk-11.0.12.7-hotspot",
+                "options": [
+                    "-Duser.dir=C:\\Users\\Charles Dang\\Documents\\Revature\\Projects\\project0_scalaCLI\\bookstorecli"
+                ]
+            },
+            "mainClass": [
+                
+            ]
+        },
+        "resolution": {
+            "modules": [
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.13.6",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "C:\\Users\\Charles Dang\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.13.6\\scala-library-2.13.6.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Charles Dang\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.13.6\\scala-library-2.13.6-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.mongodb.scala",
+                    "name": "mongo-scala-driver_2.13",
+                    "version": "2.8.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "mongo-scala-driver_2.13",
+                            "path": "C:\\Users\\Charles Dang\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\mongodb\\scala\\mongo-scala-driver_2.13\\2.8.0\\mongo-scala-driver_2.13-2.8.0.jar"
+                        },
+                        {
+                            "name": "mongo-scala-driver_2.13",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Charles Dang\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\mongodb\\scala\\mongo-scala-driver_2.13\\2.8.0\\mongo-scala-driver_2.13-2.8.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe.play",
+                    "name": "play-json_2.13",
+                    "version": "2.8.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "play-json_2.13",
+                            "path": "C:\\Users\\Charles Dang\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\typesafe\\play\\play-json_2.13\\2.8.0\\play-json_2.13-2.8.0.jar"
+                        },
+                        {
+                            "name": "play-json_2.13",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Charles Dang\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\typesafe\\play\\play-json_2.13\\2.8.0\\play-json_2.13-2.8.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.mongodb.scala",
+                    "name": "mongo-scala-bson_2.13",
+                    "version": "2.8.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "mongo-scala-bson_2.13",
+                            "path": "C:\\Users\\Charles Dang\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\mongodb\\scala\\mongo-scala-bson_2.13\\2.8.0\\mongo-scala-bson_2.13-2.8.0.jar"
+                        },
+                        {
+                            "name": "mongo-scala-bson_2.13",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Charles Dang\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\mongodb\\scala\\mongo-scala-bson_2.13\\2.8.0\\mongo-scala-bson_2.13-2.8.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.mongodb",
+                    "name": "mongodb-driver-async",
+                    "version": "3.12.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "mongodb-driver-async",
+                            "path": "C:\\Users\\Charles Dang\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\mongodb\\mongodb-driver-async\\3.12.0\\mongodb-driver-async-3.12.0.jar"
+                        },
+                        {
+                            "name": "mongodb-driver-async",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Charles Dang\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\mongodb\\mongodb-driver-async\\3.12.0\\mongodb-driver-async-3.12.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-reflect",
+                    "version": "2.13.6",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-reflect",
+                            "path": "C:\\Users\\Charles Dang\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-reflect\\2.13.6\\scala-reflect-2.13.6.jar"
+                        },
+                        {
+                            "name": "scala-reflect",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Charles Dang\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-reflect\\2.13.6\\scala-reflect-2.13.6-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe.play",
+                    "name": "play-functional_2.13",
+                    "version": "2.8.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "play-functional_2.13",
+                            "path": "C:\\Users\\Charles Dang\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\typesafe\\play\\play-functional_2.13\\2.8.0\\play-functional_2.13-2.8.0.jar"
+                        },
+                        {
+                            "name": "play-functional_2.13",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Charles Dang\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\typesafe\\play\\play-functional_2.13\\2.8.0\\play-functional_2.13-2.8.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "joda-time",
+                    "name": "joda-time",
+                    "version": "2.10.5",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "joda-time",
+                            "path": "C:\\Users\\Charles Dang\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\joda-time\\joda-time\\2.10.5\\joda-time-2.10.5.jar"
+                        },
+                        {
+                            "name": "joda-time",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Charles Dang\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\joda-time\\joda-time\\2.10.5\\joda-time-2.10.5-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.fasterxml.jackson.core",
+                    "name": "jackson-core",
+                    "version": "2.10.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jackson-core",
+                            "path": "C:\\Users\\Charles Dang\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\fasterxml\\jackson\\core\\jackson-core\\2.10.1\\jackson-core-2.10.1.jar"
+                        },
+                        {
+                            "name": "jackson-core",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Charles Dang\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\fasterxml\\jackson\\core\\jackson-core\\2.10.1\\jackson-core-2.10.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.fasterxml.jackson.core",
+                    "name": "jackson-annotations",
+                    "version": "2.10.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jackson-annotations",
+                            "path": "C:\\Users\\Charles Dang\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\fasterxml\\jackson\\core\\jackson-annotations\\2.10.1\\jackson-annotations-2.10.1.jar"
+                        },
+                        {
+                            "name": "jackson-annotations",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Charles Dang\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\fasterxml\\jackson\\core\\jackson-annotations\\2.10.1\\jackson-annotations-2.10.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.fasterxml.jackson.datatype",
+                    "name": "jackson-datatype-jdk8",
+                    "version": "2.10.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jackson-datatype-jdk8",
+                            "path": "C:\\Users\\Charles Dang\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\fasterxml\\jackson\\datatype\\jackson-datatype-jdk8\\2.10.1\\jackson-datatype-jdk8-2.10.1.jar"
+                        },
+                        {
+                            "name": "jackson-datatype-jdk8",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Charles Dang\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\fasterxml\\jackson\\datatype\\jackson-datatype-jdk8\\2.10.1\\jackson-datatype-jdk8-2.10.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.fasterxml.jackson.datatype",
+                    "name": "jackson-datatype-jsr310",
+                    "version": "2.10.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jackson-datatype-jsr310",
+                            "path": "C:\\Users\\Charles Dang\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\fasterxml\\jackson\\datatype\\jackson-datatype-jsr310\\2.10.1\\jackson-datatype-jsr310-2.10.1.jar"
+                        },
+                        {
+                            "name": "jackson-datatype-jsr310",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Charles Dang\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\fasterxml\\jackson\\datatype\\jackson-datatype-jsr310\\2.10.1\\jackson-datatype-jsr310-2.10.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.fasterxml.jackson.core",
+                    "name": "jackson-databind",
+                    "version": "2.10.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jackson-databind",
+                            "path": "C:\\Users\\Charles Dang\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\fasterxml\\jackson\\core\\jackson-databind\\2.10.1\\jackson-databind-2.10.1.jar"
+                        },
+                        {
+                            "name": "jackson-databind",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Charles Dang\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\fasterxml\\jackson\\core\\jackson-databind\\2.10.1\\jackson-databind-2.10.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.mongodb",
+                    "name": "bson",
+                    "version": "3.12.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "bson",
+                            "path": "C:\\Users\\Charles Dang\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\mongodb\\bson\\3.12.0\\bson-3.12.0.jar"
+                        },
+                        {
+                            "name": "bson",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Charles Dang\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\mongodb\\bson\\3.12.0\\bson-3.12.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.mongodb",
+                    "name": "mongodb-driver-core",
+                    "version": "3.12.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "mongodb-driver-core",
+                            "path": "C:\\Users\\Charles Dang\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\mongodb\\mongodb-driver-core\\3.12.0\\mongodb-driver-core-3.12.0.jar"
+                        },
+                        {
+                            "name": "mongodb-driver-core",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Charles Dang\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\mongodb\\mongodb-driver-core\\3.12.0\\mongodb-driver-core-3.12.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.13.6",
+                    "configurations": "optional",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "C:\\Users\\Charles Dang\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.13.6\\scala-library-2.13.6.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Charles Dang\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.13.6\\scala-library-2.13.6-sources.jar"
+                        }
+                    ]
+                }
+            ]
+        },
+        "tags": [
+            "library"
+        ]
+    }
+}
