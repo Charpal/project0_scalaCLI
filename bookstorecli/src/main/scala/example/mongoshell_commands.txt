@@ -1,5 +1,7 @@
 Bookstore Management System
 
+cd Documents\Revature\Projects\project0_scalaCLI\bookstorecli
+
 "C:\Program Files\MongoDB\Server\4.4\bin\mongod.exe" --dbpath="c:\data\db"
 
 //READ
@@ -30,12 +32,13 @@ db.orders.find({"city": "Los Angeles"})
 //CREATE
 //Add new order
 1. Find product ID of book
-db.booklist.find({"title": "Phantom of Place"}, {"_id" :1})
+db.orders.find().sort({"_id": -1})
 2. Add order to database
-db.orders.insertOne({"_id": 424, "first_name": "Jack", "last_name": "Smithy", "order_date": "10/20/20",
+db.orders.insertOne({"_id": 1000, "first_name": "Jack", "last_name": "Smithy", "order_date": "10/20/20",
 "email": "jsmithy@gmail.com", "phone": "818-222-0393", "city": "Los Angeles", "country":
 "United States", "product_id": 489}) 
-
+3. Check order
+db.orders.find().sort({"_id": -1})
 
 //Add new book
 1. Find last ID of booklist
@@ -43,7 +46,8 @@ db.booklist.find().sort({"_id": -1})
 2. Insert book into database
 db.booklist.insertOne({"_id": 500, "title": "Harry Potter and the Philosopher's Stone", "author": "J.K. rowling",
 "genre": "Fantasy", "publish_date": "1997-06-26"})
-
+3. Check book
+db.booklist.find().sort({"_id": -1})
 
 //UPDATE
 //Update an order
@@ -59,26 +63,10 @@ db.orders.find({"email": "wholberrykt@nasa.gov"})
 1. Find the book
 db.booklist.find({"title": "Harry Potter and the Philosopher's Stone"})
 2. Update the book info
-db.booklist.updateOne({"title": "Harry Potter and the Philosopher's Stone"}, {$set: {"author": "J.K. Rowling"}})
+db.booklist.updateOne({"title": "Harry Potter and the Philosopher's Stone"}, 
+{$set: {"author": "J.K. Rowling"}})
 3. Check book
-
-//DELETE
-//Delete a book
-1. Find the book
-db.booklist.find({"title": "A Dog of Vials"})
-2. Delete book from database
-db.booklist.deleteOne({"title": "A Dog of Vials"})
-3. Check book
-db.booklist.find({"title": "A Dog of Vials"})
-
-
-//Delete an order
-1. Find an order
-db.orders.find({"email": "bmasserr8@soup.io"})
-2. Delete order from database
-db.orders.deleteOne({"email": "bmasserr8@soup.io"})
-3. Check order
-db.orders.find({"email": "bmasserr8@soup.io"})
+db.booklist.find({"title": "Harry Potter and the Philosopher's Stone"})
 
 
 //AGGREGATION
@@ -97,6 +85,9 @@ db.orders.aggregate([
 
 
 //Most popular genres
+db.booklist.find()
+db.orders.find()
+
 1. Join collection together
 db.orders.aggregate([
 {$lookup: {
@@ -162,6 +153,15 @@ db.orders.aggregate([
 {$group: {_id: "$book_info.genre", GrossSales: {$sum: "$sales_amount"}}},
 {$sort: {GrossSales: -1}}
 ])
+
+
+//Delete an order
+1. Find an order
+db.orders.find({"email": "bmasserr8@soup.io"})
+2. Delete order from database
+db.orders.deleteOne({"email": "bmasserr8@soup.io"})
+3. Check order
+db.orders.find({"email": "bmasserr8@soup.io"})
 
 
 //Delete everything
